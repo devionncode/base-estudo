@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="BaseEJB">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>java:jboss/web</jta-data-source>
+		<class>br.com.devionn.model.Usuario</class>
+		<class>br.com.devionn.model.Acao</class>
+		<class>br.com.devionn.model.Idioma</class>
+		<class>br.com.devionn.model.GrupoUsuario</class>
+		<class>br.com.devionn.model.TelaAcao</class>
+		<class>br.com.devionn.model.Tela</class> 
+		<class>br.com.devionn.model.Menu</class> 
+		<class>br.com.devionn.model.Modulo</class> 
+		<class>br.com.devionn.model.Cidade</class> 
+		<class>br.com.devionn.model.Pais</class>
+		<class>br.com.devionn.model.Estado</class>
+		<class>br.com.devionn.model.Tenant</class>
+		<class>br.com.devionn.model.Pessoa</class>
+		<class>br.com.devionn.model.Endereco</class>
+		<class>br.com.devionn.model.DireitoGrupo</class>
+		<class>br.com.devionn.model.Coluna</class>
+		<class>br.com.devionn.model.Filtro</class>
+		<class>br.com.devionn.model.Empresa</class>
+		<class>br.com.devionn.model.Sistema</class> 
+		<class>br.com.devionn.model.generic.BaseEntityImpl</class>
+		<class>br.com.devionn.model.Direito</class>
+		<class>br.com.devionn.result.MenuAcesso</class>
+		<class>br.com.devionn.result.TelaAcesso</class>
+		<class>br.com.devionn.result.AcaoAcesso</class>
+		<class>br.com.devionn.result.UserAcesso</class>
+		<class>br.com.devionn.result.FiltroResult</class>
+		<class>br.com.devionn.result.ColunaResult</class>
+		<class>br.com.devionn.model.Translate</class>
+		<class>br.com.devionn.model.ContaEmail</class>
+		<class>br.com.devionn.model.EmailUsuario</class>
+		<class>br.com.devionn.model.Dispositivo</class>
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		 
+	</persistence-unit>
+	 
+</persistence>
